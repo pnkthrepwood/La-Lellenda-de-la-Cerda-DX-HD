@@ -112,6 +112,24 @@ namespace ProjectZ.Editor
                 ui => { ChangeAnimation((int)((UiNumberInput)ui).Value - 1); });
             Game1.EditorUi.AddElement(_animationInput);
 
+            Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist, posY += buttonHeight + buttonDist, buttonWidthHalf, buttonHeight), Resources.EditorFont,
+                "<", "bt1", screenId, null,
+                ui => 
+                {
+                    int nextValue = (int)_animationInput.Value - 1;
+                    _animationInput.Value = Math.Max(_animationInput.MinValue, nextValue);
+                    ChangeAnimation((int)_animationInput.Value-1);
+                }));
+
+            Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist * 2 + buttonWidthHalf, posY, buttonWidthHalf, buttonHeight), Resources.EditorFont,
+                ">", "bt1", screenId, null, 
+                ui =>  
+                {
+                    int nextValue = (int)_animationInput.Value + 1;
+                    _animationInput.Value = Math.Min(_animationInput.MaxValue, nextValue);
+                    ChangeAnimation((int)_animationInput.Value - 1);
+                }));
+
             // add animation
             Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist, posY += buttonHeight + buttonDist, buttonWidthHalf, buttonHeight),
                 Resources.EditorFont, "add", "bt1", screenId, null, ui => { AddAnimation(); }));
@@ -166,6 +184,23 @@ namespace ProjectZ.Editor
                 ui => { ((UiNumberInput)ui).MaxValue = _animator.Animations[_selectedAnimation].Frames.Length; },
                 ui => { ChangeFrame((int)((UiNumberInput)ui).Value - 1); });
             Game1.EditorUi.AddElement(_frameInput);
+
+            Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist, posY += buttonHeight + buttonDist, buttonWidthHalf, buttonHeight), Resources.EditorFont,
+                "<", "bt1", screenId, null,
+                ui =>
+                {
+                    int nextValue = (int)_frameInput.Value - 1;
+                    _frameInput.Value = Math.Max(_frameInput.MinValue, nextValue);
+                    ChangeFrame((int)_frameInput.Value - 1);
+                }));
+            Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist * 2 + buttonWidthHalf, posY, buttonWidthHalf, buttonHeight), Resources.EditorFont,
+                ">", "bt1", screenId, null, 
+                ui =>
+                {
+                    int nextValue = (int)_frameInput.Value + 1;
+                    _frameInput.Value = Math.Min(_frameInput.MaxValue, nextValue);
+                    ChangeFrame((int)_frameInput.Value - 1);
+                }));
 
             // add remove frame
             Game1.EditorUi.AddElement(new UiButton(new Rectangle(buttonDist, posY += buttonHeight + buttonDist, buttonWidthHalf, buttonHeight), Resources.EditorFont,
