@@ -1,1 +1,1 @@
-dotnet publish -c Release -p:"PublishProfile=FolderProfile"
+dotnet publish -c Release -p:"PublishProfile=FolderProfile" -p:"DebugType=None" -p:"DebugSymbols=False"
