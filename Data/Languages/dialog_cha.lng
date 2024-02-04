@@ -39,7 +39,7 @@ trade4 Los micos han dejao un palito...\n¡Asín que te lo llevas!
 trade5 ¡¥ es ahora la miel ¦! ¿Será de la granja Sanfransisco?
 trade6 ¡Cambias la ¦ por §! ¡Aunque preferirías unos donus!
 trade7 ¡Cambiaste el § por el ¨!
-trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
+trade8 Cambias ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
 trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
 trade11 ¡El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
@@ -99,9 +99,9 @@ instrument1Collected {...PRAERA...}{...PRAERA...} La casa de la pradera...
 instrument2Collected {...CATARATAS...}{Está escondío en}{las cataratas...}
 instrument3Collected {...BAHÍA...}{Ve tirando ya pa}{la bahía...}
 instrument4Collected {...TEMPLO...}{Un secretito molón}{nel templo...}
-instrument5Collected {...MONTAÑA...}{Las montañas de hedi...}{testán llamando...}
+instrument5Collected {...MONTAÑA...}{Las montañas de Heidi...}{testán llamando...}
 instrument6Collected {...OCARINA...}{La música de la ocarina}{mola...}
-instrument7Collected {...GÜEVO....}{¡El güevo de las montañas}{te llama!}
+instrument7Collected {...GÜEVO....}{¡El güevo las montañas}{te llama!}
 
 goldLeaf ¡Pillas una hoja de maría! ¡Pica el SELECT para ver cuántas has afanao!
 goldLeafLast ¡Por fin consigues la última hoja de maría! Ahora ve a charrar con el Richard aserca de la llave...
@@ -117,7 +117,7 @@ signpost3 Este ± Praera\n       Kukurl\fMás pal este\n  Villa Bichejos
 signpost4 ¡Cuidao con los espinetes!\n¡No los toques con tus susias manos!
 signpost5 ¡Cuidado con la aluminosis! ¡Después no digas que no te hemos avisao...!
 
-signpost6 Castillo Kanalet 10 Min. ± ³
+signpost6 Castillo Kanalet 10 Min.\n± ³
 signpost7 Castillo Kanalet 5 Min. ±
 signpost8 Castillo Kanalet 50 Pasos ³
 
@@ -180,7 +180,7 @@ signHead9 LA TIERRA GUARDA SECRETOS BAJO TUS PIESES...
 
 castle_button ¿Comorl? Ha sonao a puerta abriéndose. ¡Ya puedes pirarte del castillo este!
 
-door_nightmarekey Su puta madre, está chapao. Ties que trincar la Llave de Pesadillas pa entrar.
+door_nightmarekey Su puta madre, está chapao. Ties que trincar la llave gorda pa entrar.
 
 dungeon_keyhole_block ¿Comorl? ¡Este piedro tiene un bujero! ¡Ve a buscar el fistro de llave!
 rock_cracks_message Esta roca está hecha mierda, seguro que la revientas con el rabo.
@@ -624,8 +624,8 @@ owl_5_0 ¡Jurl! Hace ya que te cagas que nos conocemos, [NAME]. Ahora tienes que
 owl_stairs ¡Jurrrl! El Pez Jincho está encapachao en el huevo gordo allí arribote. Cuando toques los ocho instrumentos fijo que despierta. Si no, vas a estar en Isla Barbate hasta que toree Manolete. ¡Jurl! 
 
 // pre dungeon 6
-owl_6_0 ¡Jurl, jurl! Mira tío, aquí hay dos templos, uno al norte y otro al sur. Primero ve pal sur, hay un templo del año de maricastaña que habla del Pez Jincho. Verás que guay.
-owl_6_1 ¡Jurrl! Veo que ya has leído el graffitti. Aunque disen que Barbate es un sueño del Pez Jincho de las pelotas, nadie está seguro del todo. Tal como tú no puedes saber si alguien tiene guita hasta que le chierles, no puedes saber si es un sueño hasta despertar. El que fijo que lo sabe es el Pez Jincho, pero está clapando... Después de la pea que pilló, para no estarlo. ¿No crees, [NAME]?
+owl_6_0 ¡Jurl, jurl! Mira tío, aquí hay dos templos, uno al norte y otro al sur. Primero ve pal sur, hay un templo del año de maricastaña que habla del Pez Jincho. Verás qué guay.
+owl_6_1 ¡Jurrl! Veo que ya has leído el graffitti. Aunque disen que Barbate es un sueño del Pez Jincho de las pelotas, nadie está seguro del todo. Tal como tú no puedes saber si alguien tiene guita hasta que le chirles, no puedes saber si es un sueño hasta despertar. El que fijo que lo sabe es el Pez Jincho, pero está clapando... Después de la pea que pilló, para no estarlo. ¿No crees, [NAME]?
 
 // after dungeon 6
 owl_7_0 ¡Jurl jurl! ¡Los monstruos estan jiñaítos de pensar que el Pez Jincho pueda desclapar! ¡Han asaltao la tienda del Chino Cudeiro y se han llevao tol stock de Dodotis! ¡Le has helao la sangre en su organismo! Ale, vuela a la torre de la montaña, perico.
@@ -748,13 +748,13 @@ ulrira_4_1 '¡TIRURÍ, TIRURÍ! Soy Ulrira, ¿sabes que me he enterado que hay a
 
 ulrira_5_0 '¡TIRURÍ, TIRURÍ! ¡Soy el viejo! ¿Está la boca del pez gato sin chapar? ¡Yo de tí me piraría a busear por ahí a buscar 'almejas'!' -click-
 
-ulrira_6_0 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulri! ¿Te has pasao por el Templo Jeto? Está al norte de la Villa Bichejo. Es una ruína de los tiempos de Franco pol lo menos.' -click-'
+ulrira_6_0 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulri! ¿Te has pasao por el Templo Jeto? Está al norte de la Villa Bichejo. Es una ruína de los tiempos de Franco pol lo menos.' -click-
 
 ulrira_7_0 '¡TIRURÍ, TIRURÍ! ¡Eo, tronco! ¿Sabías que había un pollo volante en Mabe? Hase tiempo lo usábamos para encularlo y pasearnos agarrado de las patas mientras volaba... ahora ya la palmao, el Tarin que lo reventó por dentro de una atroz enculada. ¡Esque es un bejtia! ¡Taluego!' -click-
 ulrira_7_1 '¡TIRURÍ, TIRURÍ! ¡Joer macho, qué inoportuno eres, me la estaba pelando viendo Las Pornochachas 2! Me has cortao to el rollo... Bueh, ¿has visto la keli de las gallinas en la montaña? Hay una cueva al lao con algo guapo dentro.' -click-
 ulrira_7_2 '¡TIRURÍ, TIRURÍ! Aquí el Ulrira. Cuando era mozo, me llevaba a las chavalas a un picaero que hay en una torre en las montañas. Joer, qué tiempos, ¡estaba hecho un DiCaprio desos!' -click-
 
-ulrira_8_0 '¡TIRURÍ, TIRURÍ! Coño, eres tú, [NAME]. ¿La cabeza de la tortuga ninja no te deja pasar? Dale vida y verás que guapo. ¡Te lo dice el menda! ¡Taluego!' -click-
+ulrira_8_0 '¡TIRURÍ, TIRURÍ! Coño, eres tú, [NAME]. ¿La cabeza de la tortuga ninja no te deja pasar? Dale vida y verás qué guapo. ¡Te lo dice el menda! ¡Taluego!' -click-
 ulrira_8_1 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulrira! Sabes, estoy triste, dentro de na te petarás el juego y dejarás de jugar a la Cerda. ¡Buaaa!' -click-
 
 ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que le plantes pelotas al güevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
@@ -840,7 +840,7 @@ beak_d6_1 ¡Entra al espasio donde los ojos tienen paredes!
 beak_d6_2 ¡Pega brincos encima de los cristales pa avanzar!
 beak_d6_3 Para petar un cofre, nada mejor que arrelarle un buen jarrazo.
 
-facade_opening ¡Oye, tarao! ¿Quieres una pista? Mi debilidad es... ¡Coño, ya me estoy yendo de la lengua, coño! Hue hue hue.
+facade_opening ¡Oye, tarao! ¿Quieres una pista? Mi debilidad es... ¡Coño, ya me estoy yendo de la lengua! Hue hue hue.
 facade_death A ver, tate al loro. Si el Pez Jincho desclapa, ¡toa Barbate se irá a tomar por culo como la polla del Torete! ¡HAW HAW HAW!
 
 // dungeon seven
@@ -887,7 +887,7 @@ choice_Blue Asul
 
 hardhit_beetle_0 Asul es seguro.  Amarillo es precausión. Rojo es peligro.
 hardhit_beetle_1 Asul. Vuelve patrás. Amarillo precausión. Rojo peligro.
-hardhit_beetle_2 Amarillo es precausión. Rojo es periglo, tomate tu tiempo.
+hardhit_beetle_2 Amarillo es precausión. Rojo es periglo, tómate tu tiempo.
 
 choice_RED ROJO
 choice_BLUE ASUL
@@ -923,6 +923,7 @@ photo_book_text ¿Qué afoto te molaría jipiar? Dale a + pa selecsionar, endisp
 
 // entering with a follower
 photo_mouse_follower Ven pacá cuando estés solano, ¿falen?
+mouseSeqBoat Me estoy dando un bañito, vete a cagar.
 
 photo_left_11 ¡Faltan 11 afotos! ¿Y si nos escondemos entre los setos?
 photo_left_10 ¡Faltan 10 afotos! ¿Debería pillar fotos pornográficas?
@@ -971,7 +972,7 @@ photo_05_3 Bueno yo... me piro a casa, que me estoy cagando.
 // photo sequences grave
 photo_06_0 ¡Coñe, cómo me molan las afotos! ¡Oye, [NAME]! ¿Qué estás hasiendo con el cuerpo humano?
 photo_06_1 ¿Qué hases en la tumba del poltergueis? Fijo que se te apareció por hacer la guija esa. ¿Tas listo pa una afotiko?
-photo_06_2 Llamaré a esta 'Capté una psicoimagen de Luis.'
+photo_06_2 Llamaré a esta 'Capté una psicoimagen de Luís.'
 
 // photo sequences marin cliff
 marin_cliff_0 Este es mi primer garbeo contigo, [NAME].
@@ -1061,7 +1062,7 @@ map_level_7 Nivel 7--\n     Torre Avecrem
 map_level_8 Nivel 8--\n     Tortuga Ninja
 
 
-final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
+final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! ¡Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
 
 final_windfish ... ... ... ...  ... ... ... ...\fSOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GÜEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES...\n... ... ... ... ... ... ... ...\nVEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
 final_instruments ¡TOCA EL QUINTO LEVANTA CON LOS CACHARROS! ¡¡A DESPERTAR TOCAN!!
